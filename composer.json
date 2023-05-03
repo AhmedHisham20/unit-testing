@@ -1,0 +1,19 @@
+{
+    "name": "ahmed/utest",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "license": "1",
+    "autoload": {
+        "psr-4": {
+            "Ahmed\\Utest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmed"
+        }
+    ],
+    "minimum-stability": "stable"
+}
